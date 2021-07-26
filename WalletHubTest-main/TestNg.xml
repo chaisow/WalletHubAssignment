@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WalletHubTests">
+
+	<listeners>
+		<listener class-name="org.walletHub.listners.SuiteListner"/>
+	</listeners>
+	<test name="LoginTest">
+		<classes>
+			<class name="org.walletHub.tests.ValidateApplicationReview"/>
+			<class name="org.walletHub.tests.ValidateFaceBookPost"/>
+		</classes>
+	</test>
+	
+</suite>
